@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+#title {
+    font-family: "Open Sans", sans-serif;
+}
+
 #statistics {
     font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+#photography {
+    font-family: "Open Sans", sans-serif;
 }
 
 #photos {
@@ -11,9 +27,19 @@
 .column {
     float: left;
     width: 33.33%;
+    height: auto;
     padding: 5px;
   }
-  
+
+  .row {
+    color: #7B7B7B;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+  }
+
+
+
   /* Clear floats after image containers */
   .row::after {
     content: "";
