@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 .opensans {
   font-family: "Open Sans", sans-serif;
 }
+
 
 .body-content {
     display: flex;
@@ -12,8 +13,11 @@
   }
   
   .title {
-    font-size: 60px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Playfair Display";
+    font-size: 80px; font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
     letter-spacing: 4px;
     font-weight: bold;
   }
@@ -127,13 +131,13 @@
     margin: 0px 5px;
     border-radius: 10px;
   }
-  .about {
+  #about {
     color: black;
     padding: 10px;
     margin: 0px 5px;
     border-radius: 10px;
   }
-  .random_things {
+  #random_things {
     color: black;
     padding: 10px;
     margin: 0px 5px;
@@ -142,25 +146,27 @@
   
   .submit:hover {
     cursor: pointer;
-    background-color: #b6b1b8;
+    background-color: #e0d3e6;
   }
   
   .random:hover {
     cursor: pointer;
-    background-color: #b6b1b8;
+    background-color: #e0d3e6;
   }
 
-  .random_things:hover {
+  #random_things:hover {
     cursor: pointer;
-    background-color: #b6b1b8;
+    color: black; 
+    background-color: #e0d3e6;
   }
   .website:hover {
     cursor: pointer;
-    background-color: #b6b1b8;
+    background-color: #e0d3e6;
   }
-  .about:hover {
+  #about:hover {
     cursor: pointer;
-    background-color: #b6b1b8;
+    color: black; 
+    background-color: #e0d3e6;
   }
 
   a:link { text-decoration: none; }
